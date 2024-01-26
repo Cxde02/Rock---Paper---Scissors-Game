@@ -28,7 +28,7 @@ function determineWinner() {
   } else {
     resultText = "AI wins!";
   }
-  resultTextElement.textContent = resultText + " Refresh to play again!";
+  resultTextElement.textContent = resultText + " Click Restart to play again!";
   buttonElement.style.display = "inline-block";
 }
 
